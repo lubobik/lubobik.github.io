@@ -1,50 +1,110 @@
 body {
-    background-color:beige;
+    background-color: beige;
     font-family: Verdana, Sans-Serif;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-weight:bold;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold;
     color: saddlebrown;
-    font-family: Verdana;
+    font-family: verdana, sans-serif;
 }
 
-p{
+p {
     text-align: justify;
-    font-family: Verdana;
-    margin-top:-22px;;
-    margin:50;
+    font-family: Georgia, serif;
+    margin-top: -22px;
+    margin-right: 10px;
 }
 
 
 header {
-  overflow: hidden;
+    overflow: hidden;
 }
 
-/* Add a black background color to the top navigation */
+/*.nav is for the header */
 .nav {
-  background-color: #726E6E;
-  overflow: hidden;
+    background-color: #726E6E;
+    overflow: hidden;
+}
+
+/* font in nav abr */
+.nav a {
+    float: left;
+    color: #f2f2f2;
+    padding: 12px;
+    font-size: 20px;
+    text-decoration-line: none;
+}
+
+/* color change on hover */
+.nav a:hover {
+    background-color: #DA9999;
+    color: white;
+}
+
+/* adds a different color for the active site in nav */
+.nav a.active {
+    background-color: #C35C5C;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #726E6E;
+    background-color: #726E6E;
+    font-family: Verdana, sans-serif;
+}
+
+th {
+    text-align: center
+}
+
+/* changes the color in table for every even entry*/
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* .left and .right are for text aligns in the table */
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* .dist is for districts */
+.dist {
+    background-color: #A8A5A5;
+    overflow: hidden;
 }
 
 /* Style the links inside the navigation bar */
-.nav a {
-  float: left;
-  color: #f2f2f2;
-  padding: 8px;
-  font-size: 20px;
-  text-decoration-line: none;
+.dist a {
+    float: left;
+    color: #f2f2f2;
+    padding: 5px;
+    font-size: 12px;
+    text-decoration-line: none;
 }
 
-/* Change the color of links on hover */
-.nav a:hover {
-  background-color: #DA9999;
-  color: white;
+/* color change on hover */
+.dist a:hover {
+    background-color: #DA9999;
+    color: white;
 }
 
-/* Add a color to the active/current link */
-.nav a.active {
-  background-color: #C35C5C;
-  color: white;
-    font-weight: bold;
+
 }
