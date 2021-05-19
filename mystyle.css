@@ -55,6 +55,7 @@ header {
 }
 
 table {
+    max-width: 500px;
     border-collapse: collapse;
     width: 50%;
     border: 1px solid #726E6E;
@@ -107,4 +108,11 @@ table.center {
 }
 
 
+footer {
+    padding-top:50px;
+    bottom:0;
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
